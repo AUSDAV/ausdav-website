@@ -6,7 +6,7 @@ import Info from '../components/Info'
 import { homeObjOne, homeObjTwo, homeObjThree} from '../components/Info/Data';
 
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => {
         setIsOpen(!isOpen);

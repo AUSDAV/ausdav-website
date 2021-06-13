@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
+import { AiFillCaretDown } from "react-icons/ai";
 
 export const Nav = styled.nav
     `
-    background: #0f3069;
+    background: #101657;
     height: 80px;
     margin-top: -80px;
     display:flex;
@@ -55,6 +56,11 @@ export const MobileIcon = styled.div`
     cursor: pointer;
     color: #fff;
   }
+`
+
+export const MdAiFillCaretDown = styled(AiFillCaretDown)`
+  margin-left: 8px;
+  font-size: 20px;
 `
 
 export const NavMenu = styled.ul`

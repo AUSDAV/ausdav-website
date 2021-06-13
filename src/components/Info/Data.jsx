@@ -1,8 +1,8 @@
 export const homeObjOne = {
   id: 'about',
   lightBg: false,
-  lightText: true,
-  lightTop: true,
+  lightText: false,
+  lightTop: false,
   lighttextDesc: true,
   topLine: 'AUSDAV',
   headline: 'Annual Pilot Examination',
@@ -13,14 +13,14 @@ export const homeObjOne = {
   alt: 'car',
   dark: true,
   primary: true,
-  darkText: false
+  darkText: true
 };
 
 export const homeObjTwo = {
   id: 'discover',
   lightBg: true,
-  lightText: false,
-  lightTop: false,
+  lightText: true,
+  lightTop: true,
   lighttextDesc: false,
   topLine: 'AUSDAV',
   headline: 'Practical Seminar',
@@ -31,15 +31,15 @@ export const homeObjTwo = {
   alt: 'Piggybanck',
   dark: false,
   primary: false,
-  darkText: true
+  darkText: false
 };
 
 export const homeObjThree = {
   id: 'signup',
-  lightBg: true,
+  lightBg: false,
   lightText: false,
   lightTop: false,
-  lighttextDesc: false,
+  lighttextDesc: true,
   topLine: 'AUSDAV',
   headline: 'Kalvikkaram',
   description: 'In order to promote the education level of rural students who even suffer for a bowl of rice, we planned to gift them some of the very important books which they may need for their education',
@@ -47,6 +47,7 @@ export const homeObjThree = {
   imgStart: false,
   img: '/images/svg-3.svg',
   alt: 'car',
-  primary: false,
+  dark: true,
+  primary: true,
   darkText: true
 };
