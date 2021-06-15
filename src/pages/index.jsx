@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 import Info from '../components/Info'
+import Projects from '../components/Projects'
 import { homeObjOne, homeObjTwo, homeObjThree} from '../components/Info/Data';
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <Info {...homeObjOne} />
             <Info {...homeObjTwo} />
             <Info {...homeObjThree} />
+            <Projects />
         </>
     )
 }

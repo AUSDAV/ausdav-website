@@ -5,17 +5,17 @@ export const MenuItems = [
     cName: 'dropdown-link'
   },
   {
-    title: 'Consulting',
+    title: 'Kalvikaram',
     path: '/consulting',
     cName: 'dropdown-link'
   },
   {
-    title: 'Design',
+    title: 'Inovia',
     path: '/design',
     cName: 'dropdown-link'
   },
   {
-    title: 'Development',
+    title: 'Quiz Competation',
     path: '/development',
     cName: 'dropdown-link'
   }
