@@ -1,10 +1,13 @@
 import React from 'react'
+import Results from '../components/Results'
+import ScrollToTop from '../components/ScroolToTop'
 
 const ResultsPage = () => {
     return (
-        <div>
-            <h1>Result Page</h1>
-        </div>
+        <>
+        <ScrollToTop />
+            <Results />
+        </>
     )
 }
 

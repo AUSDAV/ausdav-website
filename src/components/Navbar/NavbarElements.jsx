@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
-import { Link as LinkS } from 'react-scroll'
+//import { Link as LinkS } from 'react-scroll'
 import { AiFillCaretDown } from "react-icons/ai";
 
 export const Nav = styled.nav
     `
-    background: #101657;
+    background: ${({scrollNav}) => (scrollNav ? '#0f3069' : 'transparent')};
     height: 80px;
     margin-top: -80px;
     display:flex;
@@ -77,7 +77,7 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
   height: 80px;
 `
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkR)`
   color: #fff;
   display: flex;
   align-items: center;
