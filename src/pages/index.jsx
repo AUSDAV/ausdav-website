@@ -5,6 +5,7 @@ import Sidebar from '../components/SideBar'
 import Info from '../components/Info'
 import Projects from '../components/Projects'
 import { homeObjOne, homeObjTwo, homeObjThree} from '../components/Info/Data';
+import Footer from '../components/Footer'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,8 @@ const Home = () => {
             <Info {...homeObjTwo} />
             <Info {...homeObjThree} />
             <Projects />
+            <Info {...homeObjThree} />
+            <Footer />
         </>
     )
 }
