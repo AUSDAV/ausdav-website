@@ -29,6 +29,7 @@ const Projects = () => {
                 <ProjectCard {...projectTwo} />
                 <ProjectCard {...projectTwo} />
                 <ProjectCard {...projectTwo} />
+                <ProjectCard {...projectTwo} />
             </ProjectsWrapper>
         </ProjectsContainer>
     )
