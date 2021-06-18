@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { MenuItems } from './MenuItems';
 import './Dropdown.css';
 import { Link } from 'react-router-dom';
+//import { dropdownMenu, dropdownMenuLi, dropdownMenuLink } from './dropdownElements';
 
 function Dropdown() {
   const [click, setClick] = useState(false);
@@ -29,6 +30,26 @@ function Dropdown() {
         })}
       </ul>
     </>
+    // <>
+    //   <ul
+    //     onClick={handleClick}
+    //     className={click ? 'dropdownMenu clicked' : 'dropdownMenu'}
+    //   >
+    //     {MenuItems.map((item, index) => {
+    //       return (
+    //         <dropdownMenuLi key={index}>
+    //           <dropdownMenuLink
+    //             className={item.cName}
+    //             to={item.path}
+    //             onClick={() => setClick(false)}
+    //           >
+    //             {item.title}
+    //           </dropdownMenuLink>
+    //         </dropdownMenuLi>
+    //       );
+    //     })}
+    //   </ul>
+    // </>
   );
 }
 

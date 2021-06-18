@@ -75,7 +75,7 @@ const Navbar = ({ toggle }) => {
                 >Examination</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinksA href='https://www.youtube.com/channel/UCYwkNjiR0Be-Zxm-EcGN4mg'
+                <NavLinksA href='https://www.youtube.com/channel/UCYwkNjiR0Be-Zxm-EcGN4mg' target='_blank'
                 >Videos</NavLinksA>
               </NavItem>
               <NavItem>
