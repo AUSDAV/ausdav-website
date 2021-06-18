@@ -10,7 +10,7 @@ export const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background: #0f3069
+  background: #8dc7f0;
 `
 export const FormWrap = styled.div`
   height: 100%;

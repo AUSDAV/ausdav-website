@@ -13,6 +13,7 @@ import {
   NavItem,
   NavBtn,
   NavBtnLink,
+  NavLinksA
 } from './NavbarElements'
 
 const Navbar = ({ toggle }) => {
@@ -74,9 +75,8 @@ const Navbar = ({ toggle }) => {
                 >Examination</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/videos' 
-                smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                >Videos</NavLinks>
+                <NavLinksA href='https://www.youtube.com/channel/UCYwkNjiR0Be-Zxm-EcGN4mg'
+                >Videos</NavLinksA>
               </NavItem>
               <NavItem>
                 <NavLinks to='structure' 
