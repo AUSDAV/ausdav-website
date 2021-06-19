@@ -1,6 +1,11 @@
 import React from 'react'
 import ProjectCard from './ProjectsCard'
-import { projectOne, projectTwo } from './ProjectsCard/Data'
+import { 
+    projectOne, 
+    projectTwo, 
+    projectThree, 
+    projectFour, 
+    projectFive } from './ProjectsCard/Data'
 import {
     ProjectsContainer,
     ProjectsH1,
@@ -14,10 +19,10 @@ const Projects = () => {
             <ProjectsWrapper>
                 <ProjectCard {...projectOne} />
                 <ProjectCard {...projectTwo} />
-                <ProjectCard {...projectTwo} />
-                <ProjectCard {...projectTwo} />
-                <ProjectCard {...projectTwo} />
-                <ProjectCard {...projectTwo} />
+                <ProjectCard {...projectThree} />
+                <ProjectCard {...projectFour} />
+                <ProjectCard {...projectFour} />
+                <ProjectCard {...projectFive} />
                 <ProjectCard {...projectTwo} />
                 <ProjectCard {...projectTwo} />
                 <ProjectCard {...projectTwo} />
